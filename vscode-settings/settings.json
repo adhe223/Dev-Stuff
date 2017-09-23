@@ -1,0 +1,32 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.tabSize": 2,
+    "window.zoomLevel": 1,
+    "workbench.welcome.enabled": false,
+
+    // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting.
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/local-page-*": true
+    },
+
+    // Controls auto save of dirty files. Accepted values:  'off', 'afterDelay', 'onFocusChange' (editor loses focus), 'onWindowChange' (window loses focus). If set to 'afterDelay', you can configure the delay in 'files.autoSaveDelay'.
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "git.enableSmartCommit": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+
+    // Enables or disables color decorators
+    "css.colorDecorators.enable": false,
+
+    "editor.minimap.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.trimAutoWhitespace": true,
+
+    "prettier.eslintIntegration": true,
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+}

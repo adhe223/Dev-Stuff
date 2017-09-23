@@ -1,0 +1,16 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+.",
+    "command": "eslint.executeAutofix"
+  },
+  {
+    "key": "cmd+.",
+    "command": "tslint.fixAllProblems"
+  },
+  {
+    "key": "cmd+.",
+    "command": "-editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  }
+]
