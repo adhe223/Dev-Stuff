@@ -34,7 +34,7 @@
 		"description": "Jasmine it block"
 		},
 		"Jasmine beforeEach": {
-			"prefix": "beforeEach",
+			"prefix": "beach",
 			"body":[
 				"beforeEach(() => {",
 				"",
@@ -43,7 +43,7 @@
 			"description": "Jasmine beforeEach block"
 		},
 		"Jasmine afterEach": {
-			"prefix": "afterEach",
+			"prefix": "aeach",
 			"body":[
 				"afterEach(() => {",
 				"",
