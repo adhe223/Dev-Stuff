@@ -74,8 +74,8 @@
 		"description": "React stateless component skeleton"
 	},
 
-	"React jest file": {
-		"prefix": "rjest",
+	"Jest react file": {
+		"prefix": "jreact",
 		"body": [
 			"import React from 'react';",
 			"import { shallow, ShallowWrapper } from 'enzyme';",
@@ -101,6 +101,6 @@
 			"  });",
 			"});"
 		],
-		"description": "React jest test file"
+		"description": "Jest react test file"
 	}
 }
